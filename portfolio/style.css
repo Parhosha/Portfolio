@@ -1,0 +1,241 @@
+*{
+    margin: 0 auto;
+    
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.cont{
+  height: 800px;  
+}
+.block{
+    width:100%;
+    height: 600px;
+    display: inline-block;
+}
+.block h1{
+    font-weight: 100;
+}
+.block h3{
+    font-size: 17px;
+}
+.block img{
+   width: 40% ;
+    padding-top:00px;
+    padding-bottom:0px;
+}
+.social{
+    display: inline-block;
+    width:100%;
+    float: right;
+    margin-top:0px;
+}
+.social img:nth-of-type(1){
+    width: 4%;
+    margin-right: 20px;
+    
+}
+.social img:nth-of-type(2){
+    width: 4%;  
+     margin-right: 20px;
+}
+.social img:nth-of-type(3){
+    width: 4%;
+    
+}
+.block p:nth-of-type(1){
+    text-align: left;
+    position: absolute;
+    top:%;
+    left:57%;
+    background-color: white;
+    font-size: 24px
+}
+#portf{
+    position: absolute;
+    top:10%;
+    left:60%;
+    width:150px;
+    background-color: white;
+    font-size: 21px;
+}
+ #name{
+    position: absolute;
+    top:99px;
+    left:10.1%;
+    background-color: white;
+    font-size: 42px;
+}
+ #surname{
+     position: absolute;
+     top:50px;
+    left: 27.5%;
+     font-size: 42px;
+    
+}
+
+.aboutMe{
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+   margin-left: 4%;
+    text-align: left;
+    height: 200px;
+}
+sub{
+    font-size: 10px;
+}
+
+.secondCont{
+    height: 0px;
+    overflow: hidden;
+    z-index: 100;
+}
+.blockS{
+    width: 100px;
+    background-color:black;
+    height: 100px;
+    margin-top:5px;
+    border-radius: 50px;
+    position: relative;  
+}
+.line{
+    position: absolute;
+    height: 0;
+    
+    width:2px;
+    background-color: black;
+    left:49.9%;
+    top:0px;
+    z-index: 0;
+}
+.blockInfo{
+    width: 0%;
+    margin-top:5px; 
+    
+    
+}
+.blockInfo:nth-of-type(2n){
+    
+    margin-left:49.9%;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+.blockInfo:nth-of-type(odd){
+    margin-left:49%;
+    overflow: hidden;
+     text-align: right;
+    
+}
+
+
+@keyframes lineL{
+    100%{
+        width: 30%;
+        margin-left:52%;
+        color:black;
+    }
+}
+@keyframes lineR{
+    100%{
+        width: 30%;
+        margin-left:18%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+  
+    .cont{
+        height: 0px;overflow: hidden;
+    }
+    #name{
+        position: relative;
+    }
+    #surname{
+        position: relative;
+    }
+    #portf{
+        position: relative;
+    }
+    .secondCont{
+    height: 800px;
+    overflow: visible;
+    }
+    .line{
+        position: absolute;
+        height: 850px;
+    }
+    .blockInfo h2{
+    height: 150px;       
+}  
+}
+
+.Anima{
+  height: 0px;
+  overflow: hidden;
+    
+}
+.LP{
+        height: 0px;
+        overflow: hidden;
+    }
+
+@media screen and (max-width: 950px) {
+    .line{
+        position: absolute;
+        height: 0px;
+    }
+    
+    .secondCont{
+        height: 0px;
+        overflow: hidden;
+    }
+    .Anima{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top:10%;
+    left: 20%;
+    background: url(port.jpg) 0px ;
+    }
+    .button {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        background: url(pp.jpg); 
+        margin:3%;
+        z-index: 23;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    
+    .Anima{
+        height: 0px;
+        overflow: hidden;
+    }
+    
+    .button{
+    height: 0px;
+    overflow: hidden;
+    }
+    .LP{
+        margin-top: 30%;
+        height: 450px;
+        width: 100%;
+        
+    }
+    
+.LP .icons img{
+        width: 100%;
+    }
+ .icons{
+    display: inline-block;
+    height: 100px;
+    width: 18%;
+    margin: 5px;
+    
+}
+}
