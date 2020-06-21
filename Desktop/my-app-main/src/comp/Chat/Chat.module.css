@@ -1,0 +1,52 @@
+.Chat{
+    display: grid;
+    grid-template-columns: 400px 200px;
+    
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0 ;
+}
+
+
+.Contact{
+    padding: 20px;
+    
+}
+
+.Massages {
+    overflow:scroll;
+    height: 320px;
+}
+.Massages p{
+    padding: 20px;
+}
+.activeLink{
+    color:green;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.status > *{
+    display: inline-block;
+}
+footer{
+	
+	width: 100%;
+   margin:40px 100px;
+	text-align: center;
+	
+}
+footer textarea{
+    display: inline-block;
+    padding: 20px ;
+    width: 60%;
+    
+}
+footer button{
+    display: inline-block;
+	padding: 20px 20px;
+	margin-left: 20px;
+    background-color: beige;
+    
+}

@@ -1,0 +1,37 @@
+div img {
+  width: 150px;
+}
+
+.user {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 40px;
+  width: 70%;
+  margin: 0 5%;
+}
+.pageSelected {
+  color: red;
+}
+.pages {
+  color: green;
+}
+.pageWrap {
+  margin: 0 auto;
+  width: 200px;
+}
+.button {
+  padding: 5px;
+}
+.status > * {
+  font-weight: bolder;
+  color: red;
+  display: inline-block;
+  padding: 5px 0;
+}
+.pageWrap div {
+  width: 20px;
+  margin: 0 auto;
+  display: inline-block;
+}
