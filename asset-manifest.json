@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.2a074d57.chunk.js": "/SocialSamurai/static/js/0.2a074d57.chunk.js",
+    "static/js/0.2a074d57.chunk.js.map": "/SocialSamurai/static/js/0.2a074d57.chunk.js.map",
+    "main.css": "/SocialSamurai/static/css/main.c1d67669.chunk.css",
+    "main.js": "/SocialSamurai/static/js/main.3199896c.chunk.js",
+    "main.js.map": "/SocialSamurai/static/js/main.3199896c.chunk.js.map",
+    "runtime-main.js": "/SocialSamurai/static/js/runtime-main.01749e73.js",
+    "runtime-main.js.map": "/SocialSamurai/static/js/runtime-main.01749e73.js.map",
+    "static/js/3.d5028465.chunk.js": "/SocialSamurai/static/js/3.d5028465.chunk.js",
+    "static/js/3.d5028465.chunk.js.map": "/SocialSamurai/static/js/3.d5028465.chunk.js.map",
+    "static/css/4.fef80acd.chunk.css": "/SocialSamurai/static/css/4.fef80acd.chunk.css",
+    "static/js/4.a14973bc.chunk.js": "/SocialSamurai/static/js/4.a14973bc.chunk.js",
+    "static/js/4.a14973bc.chunk.js.map": "/SocialSamurai/static/js/4.a14973bc.chunk.js.map",
+    "static/css/5.8ded4159.chunk.css": "/SocialSamurai/static/css/5.8ded4159.chunk.css",
+    "static/js/5.c47f27b7.chunk.js": "/SocialSamurai/static/js/5.c47f27b7.chunk.js",
+    "static/js/5.c47f27b7.chunk.js.map": "/SocialSamurai/static/js/5.c47f27b7.chunk.js.map",
+    "static/css/6.8cdf5697.chunk.css": "/SocialSamurai/static/css/6.8cdf5697.chunk.css",
+    "static/js/6.20b93ec1.chunk.js": "/SocialSamurai/static/js/6.20b93ec1.chunk.js",
+    "static/js/6.20b93ec1.chunk.js.map": "/SocialSamurai/static/js/6.20b93ec1.chunk.js.map",
+    "static/css/7.5a26ec84.chunk.css": "/SocialSamurai/static/css/7.5a26ec84.chunk.css",
+    "static/js/7.419f32a5.chunk.js": "/SocialSamurai/static/js/7.419f32a5.chunk.js",
+    "static/js/7.419f32a5.chunk.js.map": "/SocialSamurai/static/js/7.419f32a5.chunk.js.map",
+    "index.html": "/SocialSamurai/index.html",
+    "precache-manifest.76048a810104ac136fc77131f790d13a.js": "/SocialSamurai/precache-manifest.76048a810104ac136fc77131f790d13a.js",
+    "service-worker.js": "/SocialSamurai/service-worker.js",
+    "static/css/4.fef80acd.chunk.css.map": "/SocialSamurai/static/css/4.fef80acd.chunk.css.map",
+    "static/css/5.8ded4159.chunk.css.map": "/SocialSamurai/static/css/5.8ded4159.chunk.css.map",
+    "static/css/6.8cdf5697.chunk.css.map": "/SocialSamurai/static/css/6.8cdf5697.chunk.css.map",
+    "static/css/7.5a26ec84.chunk.css.map": "/SocialSamurai/static/css/7.5a26ec84.chunk.css.map",
+    "static/css/main.c1d67669.chunk.css.map": "/SocialSamurai/static/css/main.c1d67669.chunk.css.map",
+    "static/js/3.d5028465.chunk.js.LICENSE.txt": "/SocialSamurai/static/js/3.d5028465.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01749e73.js",
+    "static/js/3.d5028465.chunk.js",
+    "static/css/main.c1d67669.chunk.css",
+    "static/js/main.3199896c.chunk.js"
+  ]
+}
