@@ -18,8 +18,8 @@ const Users = (props) => {
   return (
     <div>
       <div className="user">
-        {props.user.map((p) => (
-          <div id={p.id}>
+        {props.user.map((p, index) => (
+          <div id={p.id} key={`${p}_${index}`}>
             <div>
               <NavLink to={'/Chat/' + p.id}>
                 <img alt="#" src={p.photos.small ? p.photos.small : srcImg}></img>
@@ -61,9 +61,9 @@ const Users = (props) => {
         <button onClick={() => setPagePortion(pagePortion - 1)}>Prev</button>
         {pages
           .filter((p) => p >= leftPageNumber && p <= rightPageNumber)
-          .map((p) => {
+          .map((p, index) => {
             return (
-              <div>
+              <div key={`${p}_${index}`}>
                 <div
                   className={props.pageSelected === p ? 'pageSelected' : 'pages'}
                   onClick={() => {
